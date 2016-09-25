@@ -1,0 +1,8 @@
+1. Farmers Markets Directory and Geographic Data (.csv)
+	Contains the exact location of all Farmers Markets in the United States.
+	Published by the Agriculture Marketing Service, and was recently updated on September 23, 2016.
+	Exact data about the Farmers Markets allows us to create a dataset that allows simple questions,
+	such as the states with the most Farmers Markets, or take the database and look into more detailed 
+	questions about Farmers Markets behaviors and its customer base within the US. The only data anomalies
+	that may occur are formatting or null values of certain attritubes, such as the zip codes. The rest of
+	the fields are either self-created, or were originally recorded in a uniform manner.
