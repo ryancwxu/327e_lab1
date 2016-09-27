@@ -3,19 +3,19 @@ create database farmersmarkets;
 use farmersmarkets;
 
 CREATE TABLE Farmers_Markets (
-	fmid integer primary key,
+	fmid integer not null primary key,
     market_name varchar(100) not null,
-    website varchar(100),
-    locationid integer
+    website varchar(100) not null,
+    locationid integer unique not null
 );
 
 CREATE TABLE Locations (
-	locationid integer primary key,
-    street varchar(30),
-    stateid integer,
-    zipid integer,
-    cityid integer,
-    FOREIGN KEY (locationid) REFERENCES Farmers_Markets(locationid)
+	locationid integer auto_increment not null primary key,
+    street varchar(30) not null,
+    stateid integer UNIQUE not null,
+    zipid integer UNIQUE not null,
+    cityid integer UNIQUE not null,
+    foreign key (locationid) REFERENCES Farmers_Markets(locationid)
 );
 
 CREATE TABLE States (
