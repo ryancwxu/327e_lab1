@@ -6,3 +6,4 @@
 	questions about Farmers Markets behaviors and its customer base within the US. The only data anomalies
 	that may occur are formatting or null values of certain attritubes, such as the zip codes. The rest of
 	the fields are either self-created, or were originally recorded in a uniform manner.
+	Link: https://catalog.data.gov/dataset/farmers-markets-geographic-data (link under references)
